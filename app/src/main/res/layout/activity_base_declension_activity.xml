@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".BaseDeclensionActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvDisplayChar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="word" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvRemaining"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/remaining"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvErrors"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/errors"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/darkRed1"-->
+<!--            android:textSize="18sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tvRemaining" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnNomSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/NomSin" />
+
+        <Button
+            android:id="@+id/btnNomPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/NomPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnVocSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/VocSin" />
+
+        <Button
+            android:id="@+id/btnVocPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/VocPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnAccSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/AccSin" />
+
+        <Button
+            android:id="@+id/btnAccPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/AccPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnInsSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/InsSin" />
+
+        <Button
+            android:id="@+id/btnInsPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/InsPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnDatSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/DatSin" />
+
+        <Button
+            android:id="@+id/btnDatPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/DatPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnAblSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/AblSin" />
+
+        <Button
+            android:id="@+id/btnAblPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/AblPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnGenSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/GenSin" />
+
+        <Button
+            android:id="@+id/btnGenPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/GenPl" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnLocSin"
+            style="@style/btnCaseNumber"
+            android:text="@string/LocSin" />
+
+        <Button
+            android:id="@+id/btnLocPl"
+            style="@style/btnCaseNumber"
+            android:text="@string/LocPl" />
+
+    </LinearLayout>
+
+</LinearLayout>

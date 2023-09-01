@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pāḷi Declensions</string>
+
+    <string name="remaining">Remaining</string>
+    <string name="errors">Errors</string>
+
+    <string name="NomSin">Nom. sin.</string>
+    <string name="NomPl">Nom. pl.</string>
+    <string name="VocSin">Voc. sin.</string>
+    <string name="VocPl">Voc. pl.</string>
+    <string name="AccSin">Acc. sin.</string>
+    <string name="AccPl">Acc. pl.</string>
+    <string name="InsSin">Ins. sin.</string>
+    <string name="InsPl">Ins. pl.</string>
+    <string name="DatSin">Dat. sin.</string>
+    <string name="DatPl">Dat. pl.</string>
+    <string name="AblSin">Abl. sin.</string>
+    <string name="AblPl">Abl. pl.</string>
+    <string name="GenSin">Gen. sin.</string>
+    <string name="GenPl">Gen. pl.</string>
+    <string name="LocSin">Loc. sin.</string>
+    <string name="LocPl">Loc. pl.</string>
+
+    <string name="purisa">Purisa</string>
+    <string name="citta">Citta</string>
+    <string name="kaññā">Kaññā</string>
+    <string name="guṇavantMasculine">Guṇavant (m.)</string>
+    <string name="gacchantMasculine">Gacchant (m.)</string>
+    <string name="rattiFeminineI">Ratti (f., -i)</string>
+    <string name="rattiFeminineU">Ratti (f., -u)</string>
+    <string name="rattiFeminineŪ">Ratti (f., -ū)</string>
+    <string name="rattiMasculineI">Ratti (m., -i)</string>
+    <string name="rattiMasculineĪ">Ratti (m., -ī)</string>
+    <string name="rattiMasculineU">Ratti (m., -u)</string>
+    <string name="rattiMasculineŪ">Ratti (m., -ū)</string>
+    <string name="itthī">Itthī</string>
+    <string name="gahapatānī">Gahapatānī</string>
+    <string name="rāja">Rāja</string>
+    <string name="satthu">Satthu</string>
+    <string name="mano">Mano</string>
+    <string name="puma">Puma</string>
+</resources>
